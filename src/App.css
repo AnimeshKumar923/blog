@@ -11,11 +11,11 @@ ul {
   padding: 0;
   display: flex;
   gap: 1rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   justify-content: space-between;
 }
 
 .g2 {
   display: flex;
-  gap: 2em;
+  gap: 1.5em;
 }
