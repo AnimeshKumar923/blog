@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./components/NavBar.jsx";
 import BlogCard from "./components/BlogCard.jsx";
 import Home from "./components/Home.jsx";
+import About from "./components/About.jsx";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         </div>
         <BlogCard name="first" />
         <BlogCard name="second" />
+        <About />
       </Home>
     </>
   );
