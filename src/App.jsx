@@ -6,16 +6,20 @@ import About from "./components/About.jsx";
 function App() {
   return (
     <>
-      <NavBar />
-      <Home>
-        <div className="title">
-          <h1>Personal Blog</h1>
-          <h3>Welcome to my blog!</h3>
-        </div>
-        <BlogCard name="first" />
-        <BlogCard name="second" />
-        <About />
-      </Home>
+      <div className="container">
+        <NavBar />
+        <Home>
+          <div className="textGroup">
+            <div className="title">
+              <h1>Personal Blog</h1>
+              <h3>Welcome to my blog!</h3>
+            </div>
+            <BlogCard name="demo first" />
+            <BlogCard name="demo second" />
+          </div>
+          <About />
+        </Home>
+      </div>
     </>
   );
 }
