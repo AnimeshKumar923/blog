@@ -1,5 +1,3 @@
-import headshot from "../assets/headshot.jpg";
-
 export default function About() {
   return (
     <div className="aboutSection">

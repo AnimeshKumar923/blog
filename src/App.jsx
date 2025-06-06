@@ -1,24 +1,23 @@
 import "./App.css";
-import NavBar from "./components/NavBar.jsx";
+import Header from "./components/Header.jsx";
 import BlogCard from "./components/BlogCard.jsx";
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
+import HighlightBlog from "./components/HIghlightBlog.jsx";
 function App() {
   return (
     <>
-      <div className="container">
-        <NavBar />
-        <Home>
-          <div className="textGroup">
-            <div className="title">
-              <h1>Personal Blog</h1>
-              <h3>Welcome to my blog!</h3>
-            </div>
-            <BlogCard name="demo first" />
-            <BlogCard name="demo second" />
+      <div className="mainContainer">
+        <Header />
+        <div className="content">
+          <div className="highlightBlog">
+            <HighlightBlog />
           </div>
-          <About />
-        </Home>
+          <div className="remainingBlogs">
+            <BlogCard name={"demo blog 1"}></BlogCard>
+    
+          </div>
+        </div>
       </div>
     </>
   );

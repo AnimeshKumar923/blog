@@ -1,63 +1,33 @@
 #root {
   max-width: 1280px ;
-  margin: 2em;
-  padding: 2em;
-  text-align: center;
+  /* margin: 2em; */
+  /* padding: 2em; */
+  /* text-align: center; */
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 1rem;
-  font-size: 2.5rem;
-  justify-content: space-between;
+.mainContainer {
+  margin: 4em;
+  margin-top: 1.5em;
 }
 
-.g2 {
-  display: flex;
-  gap: 1.5em;
-}
-
-.headshotImage {
-  max-width: 180px;
-  max-height: 180px;
-  /* border: 5px solid #19d4ec; */
-  border-radius: 40px;
-}
-
-.homepage{
-  margin-top: 55px;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-.aboutSection{
-  position: sticky;
-  top: 2rem;
-  align-self: start; 
+.content {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
+
+  justify-content: center;
   align-items: center;
 }
 
-.textGroup {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.highlightBlog{
+  width: 50rem;
 }
 
-.title {
+.highlightBlog > div{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  
+  gap: 1rem;
 }
 
-.card{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
+.highlightBlog > div > img{
+  border-radius: 20px;
 }
