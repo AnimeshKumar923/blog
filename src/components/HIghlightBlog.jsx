@@ -1,7 +1,7 @@
 export default function HighlightBlog() {
   // const imageUrl = `https://picsum.photos/500/300`;
   return (
-    <div>
+    <>
       <img
         src="https://fastly.picsum.photos/id/201/500/300.jpg?hmac=v0GEqa-YATYYy9hkxWbMmoxVAp_JtNKUSpkfKBtwuBE"
         alt="card image"
@@ -15,6 +15,6 @@ export default function HighlightBlog() {
           at dui.
         </p>
       </div>
-    </div>
+    </>
   );
 }

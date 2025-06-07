@@ -14,9 +14,9 @@ a:hover {
 
 body {
   margin: 0;
-  /* display: flex; */
+  display: flex;
   /* place-items: center; */
-  align-items: center;
+  justify-content: center;
   /* min-width: 3200px; */
   /* min-height: 150vh; */
 }
