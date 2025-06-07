@@ -8,7 +8,7 @@ export default function HighlightBlog() {
       />
       <div className="info">
         <p className="date">June 6, 2025</p>
-        <h1>Card title</h1>
+        <h1>Card title should be a bit big</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
           nunc ut laoreet cursus, enim erat dictum urna, nec placerat elit erat
