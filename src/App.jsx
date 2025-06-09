@@ -14,7 +14,7 @@ function App() {
             <HighlightBlog />
           </div>
           <div className="remainingBlogs">
-            <BlogCard name={"Coming Soon"} date={"TBD, 2025"}/>
+            <BlogCard name={"Coming Soon"} date={"Summer, 2025"}/>
           </div>
         </div>
       </div>
