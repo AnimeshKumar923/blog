@@ -1,4 +1,5 @@
 import "./App.css";
+import { Link } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import BlogCard from "./components/BlogCard.jsx";
 import Home from "./components/Home.jsx";
@@ -16,7 +17,7 @@ function App() {
           <div className="remainingBlogs">
             <BlogCard name={"Coming Soon"} date={"Summer, 2025"}/>
           </div>
-          <About/>
+          {/* <About/> */}
         </div>
       </div>
     </>

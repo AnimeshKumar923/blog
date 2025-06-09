@@ -1,7 +1,9 @@
 .img{
-  height: 40px;
-  width: 40px;
-  background-color: white;
+  height: 200px;
+  width: 200px;
+  /* height: 12rem;
+  width: 12rem; */
+  /* background-color: white; */
 }
 
 .p{
