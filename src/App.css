@@ -14,28 +14,6 @@
   flex-direction: column;
 }
 
-.highlightBlog {
-  max-width: 50rem;
-}
-
-.highlightBlog {
-  display: flex;
-  gap: 1rem;
-}
-
-.highlightBlog > img {
-  border-radius: 20px;
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.info > * {
-  margin: 0;
-}
 /* 
 .remainingBlogs {
   display: flex;
