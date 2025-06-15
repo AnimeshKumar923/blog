@@ -11,13 +11,10 @@ function App() {
       <div className="mainContainer">
         <Header />
         <div className="content">
-          <div className="highlightBlog">
             <HighlightBlog />
-          </div>
           <div className="remainingBlogs">
             <BlogCard name={"Coming Soon"} date={"Summer, 2025"}/>
           </div>
-          {/* <About/> */}
         </div>
       </div>
     </>

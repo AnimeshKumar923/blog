@@ -3,15 +3,6 @@
   background-color: #11282e;
 }
 
-a {
-  font-weight: 500;
-  color: white;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #97f7f2;
-}
-
 body {
   margin: 0;
   display: flex;
