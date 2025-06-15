@@ -1,11 +1,42 @@
 .img{
-  height: 200px;
-  width: 200px;
-  /* height: 12rem;
-  width: 12rem; */
-  /* background-color: white; */
+  /* height: 200px;
+  width: 200px; */
+  height: 13rem;
+  width: 13rem;
+  border-radius: 1.5rem;
 }
 
 .p{
-  font-size: xx-large;
+  font-size: x-large;
+}
+
+.aboutContent{
+  margin-top: 1.5em;
+  min-width: 480px;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 3rem;
+}
+
+.description{
+  /* display: flex; */
+}
+
+.links{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.links > a:hover {
+  transform: translateY(-0.4rem);
+}
+
+.links > a {
+  transition: transform ease 0.3s;
 }

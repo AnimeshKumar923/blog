@@ -3,7 +3,8 @@
   font-family: "Inter", "Poppins", "Montserrat", Arial, sans-serif;
 }
 
-header > a:hover, nav > a:hover{
+header > a:hover,
+nav > a:hover {
   color: #7ed9f0;
 }
 
@@ -11,16 +12,11 @@ a {
   font-weight: 500;
   color: white;
   text-decoration: inherit;
-  display: block;
+  /* display: block; */
   transition: transform ease 0.3s;
 }
 
-.content > a:hover, .remainingBlogs > a:hover{
-  transform: translateY(-0.7rem);
-}
-
 .mainContainer {
-  margin: 4em;
   margin-top: 1.5em;
 }
 
@@ -30,6 +26,10 @@ a {
   flex-direction: column;
 }
 
+.content > a:hover,
+.remainingBlogs > a:hover {
+  transform: translateY(-0.7rem);
+}
 /* flexbox approach */
 /* 
 .remainingBlogs {
