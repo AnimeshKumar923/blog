@@ -12,7 +12,8 @@ export default function About() {
             alt="headshot image of mine"
           />
           <div className={styles.description}>
-            <p className={styles.p}>An avid open source dweller</p>
+            <p className={styles.p}>An avid open source dweller who writes sometimes</p>
+            <hr className={styles.hr}/>
             <div className={styles.links}>
               <a
                 href="https://x.com/animeshk923"
