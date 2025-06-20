@@ -8,9 +8,6 @@
   border-radius: 20px;
 }
 
-/* .highlightBlog:hover{
-  background-color: #0c353f;
-} */
 .info {
   display: flex;
   flex-direction: column;
@@ -22,5 +19,5 @@
 }
 
 .p{
-  text-justify: inter-character;
+  text-justify:distribute-all-lines
 }

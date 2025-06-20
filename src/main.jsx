@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./components/About.jsx";
+import BlogPageWrapper from "./components/BlogPageWrapper.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <About />,
+  },
+  {
+    path: "blogs/:slug",
+    element: <BlogPageWrapper />,
   },
 ]);
 
