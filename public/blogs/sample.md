@@ -1,4 +1,4 @@
-# My First Blog Post 
+# Sample Blog Post 
 *(sample blog by chatgpt)*
 
 *Published on: June 15, 2024*

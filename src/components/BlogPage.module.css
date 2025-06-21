@@ -10,16 +10,51 @@ header {
   gap: 15rem;
 }
 
+h1 {
+  font-size: 2.5rem;
+  /* text-align: center; */
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+ul {
+  /* font-size: 1.rem; */
+  line-height: 2rem;
+}
+
 .post {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   margin-left: 4rem;
+  margin-bottom: 4rem;
 }
 
 .post a {
   text-decoration: none;
   color: rgb(227, 231, 0);
+}
+
+.post a:hover {
+  color: rgb(253, 163, 52); /* A contrasting orange for hover */
+  /* text-decoration: underline; */
+}
+.post a:visited {
+  color: rgb(180, 180, 80);
+}
+
+.post a:visited:hover {
+  color: rgb(253, 163, 52);
+}
+
+.post p {
+  font-size: 1.15rem;
+  /* font-weight: 300; */
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .hr {
