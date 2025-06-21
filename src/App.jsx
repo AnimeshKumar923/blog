@@ -17,7 +17,7 @@ function App() {
             }}
             blog={{
               timeline: "Summer, 2025",
-              heading: "How I became an open source dweller",
+              heading: "Becoming an open source dweller",
               description: "Well, kind of.",
             }}
           />
@@ -25,8 +25,12 @@ function App() {
             <Link to={`/blogs/sample`}>
               <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
             </Link>
-            <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
-            <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
+            <Link to={`/blogs/sample`}>
+              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
+            </Link>
+            <Link to={`/blogs/sample`}>
+              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
+            </Link>
           </div>
         </div>
       </div>
