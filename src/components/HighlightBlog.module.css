@@ -18,6 +18,28 @@
   margin: 0;
 }
 
-.p{
-  text-justify:distribute-all-lines
+/* .p {
+  text-justify: distribute-all-lines;
+} */
+
+@media (max-width: 900px) {
+  .highlightBlog {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  .highlightBlog > img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+}
+@media (max-width: 600px) {
+  .highlightBlog > img {
+    max-width: 100%;
+  }
+  .info {
+    padding: 0 1rem;
+    gap: 1.2rem;
+  }
 }

@@ -46,3 +46,35 @@
 .links > a {
   transition: transform ease 0.3s;
 }
+
+@media (max-width: 900px) {
+  .aboutContent {
+    max-width: 90vw;
+  }
+  .aboutSection {
+    margin: 1.5rem;
+  }
+  .img {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+@media (max-width: 600px) {
+  .aboutContent {
+    margin-top: 0.5em;
+    max-width: 98vw;
+  }
+  .aboutSection {
+    margin: 1rem 0.5rem;
+  }
+  .img {
+    height: 7rem;
+    width: 7rem;
+  }
+  .p {
+    font-size: 1.1rem;
+  }
+  .links {
+    gap: 1.2rem;
+  }
+}

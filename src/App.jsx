@@ -25,6 +25,15 @@ function App() {
             <Link to={``}>
               <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
             </Link>
+            <Link to={``}>
+              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
+            </Link>
+            <Link to={``}>
+              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
+            </Link>
+            <Link to={``}>
+              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
+            </Link>
           </div>
         </div>
       </div>

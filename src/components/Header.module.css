@@ -4,3 +4,19 @@
   align-items: flex-start;
   font-size: x-large;
 }
+
+@media (max-width: 900px) {
+  .header {
+    font-size: large;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    align-items: center;
+    font-size: medium;
+    gap: 6rem;
+  }
+  .nav {
+    margin-top: 0.5rem;
+  }
+}
