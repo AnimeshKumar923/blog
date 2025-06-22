@@ -22,13 +22,7 @@ function App() {
             }}
           />
           <div className="remainingBlogs">
-            <Link to={`/blogs/sample`}>
-              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
-            </Link>
-            <Link to={`/blogs/sample`}>
-              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
-            </Link>
-            <Link to={`/blogs/sample`}>
+            <Link to={``}>
               <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
             </Link>
           </div>
