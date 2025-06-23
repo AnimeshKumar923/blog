@@ -12,7 +12,7 @@ function App() {
         <div className="content">
           <HighlightBlog
             image={{
-              src: "public/assets/dark-laptop.jpg",
+              src: "/assets/dark-laptop.jpg",
               alt: "highlight blog image",
             }}
             blog={{
