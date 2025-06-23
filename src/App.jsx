@@ -12,7 +12,7 @@ function App() {
         <div className="content">
           <HighlightBlog
             image={{
-              src: "https://fastly.picsum.photos/id/201/500/300.jpg?hmac=v0GEqa-YATYYy9hkxWbMmoxVAp_JtNKUSpkfKBtwuBE",
+              src: "public/assets/dark-laptop.jpg",
               alt: "highlight blog image",
             }}
             blog={{
@@ -22,15 +22,6 @@ function App() {
             }}
           />
           <div className="remainingBlogs">
-            <Link to={``}>
-              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
-            </Link>
-            <Link to={``}>
-              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
-            </Link>
-            <Link to={``}>
-              <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
-            </Link>
             <Link to={``}>
               <BlogCard name={"Coming Soon"} date={"Summer, 2025"} />
             </Link>

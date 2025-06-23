@@ -78,7 +78,7 @@ hr {
 }
 @media (max-width: 600px) {
   .container {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     max-width: 95vw;
   }
   .post {
@@ -87,7 +87,7 @@ hr {
     padding: 0 0.5rem;
   }
   .hr {
-    width: 98%;
+    width: 73%;
   }
   .post p {
     font-size: 1rem;

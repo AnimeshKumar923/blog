@@ -4,9 +4,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Link to="/">Animesh's Blog</Link>
-      <nav className={styles.nav}>
-        <Link to="/about">About</Link>
-      </nav>
+      <Link to="/about">About</Link>
     </header>
   );
 }
