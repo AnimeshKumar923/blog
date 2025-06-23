@@ -8,6 +8,7 @@ export default function HighlightBlog({image, blog}) {
         <img
           src={image.src}
           alt={image.alt}
+          className={styles.img}
         />
         <div className={styles.info}>
           <p>{blog.timeline}</p>
