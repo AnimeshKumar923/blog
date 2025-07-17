@@ -1,2 +1,2 @@
 # blog
-Personal blogging website
+Personal blog website
